@@ -1,0 +1,17 @@
+  public static void main(String[] args) {
+
+
+        try {
+            Scanner scanner = new Scanner(System.in);
+
+            System.out.println("Prosze podac dlugosc prostokata:");
+            double a = scanner.nextDouble();
+
+            System.out.println("Prosze podac szerokosc prostokata:");
+            double b = scanner.nextDouble();
+            double pole = a * b;
+            System.out.println("Wynik" + " " + pole);
+        } catch (Exception e) {
+            System.out.println("Sprawdz czy podales prawidlowa liczbe");
+        }
+}
