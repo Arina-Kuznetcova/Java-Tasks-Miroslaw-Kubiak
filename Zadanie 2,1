@@ -1,0 +1,20 @@
+public class czescDruga {
+    public static void main(String[] args) {
+        //Task 2.1
+
+        System.out.println("Wpisz strone a prostokata:");
+        Scanner scanner = new Scanner(System.in);
+        int a = scanner.nextInt();
+        System.out.println("Wpisz strone b prostokata:");
+        int b = scanner.nextInt();
+        System.out.println("Wpisz strone c prostokata:");
+        int c = scanner.nextInt();
+
+        if ((a * a + b * b) == c * c) {
+            System.out.println("Trojkat jest prostokatny");
+
+        } else {
+            System.out.println("Trojkat nie jest prostokatny");
+        }
+    }
+}
