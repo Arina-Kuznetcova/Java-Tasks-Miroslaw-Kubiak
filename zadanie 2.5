@@ -1,0 +1,17 @@
+//Task 2.5
+        System.out.println("Program losuje liczbe z przedzialu of 0 do 9" + " " +
+                "Zgadnij ta liczbe");
+
+        Scanner scanner = new Scanner(System.in);
+
+        double lizbaUsera = scanner.nextDouble();
+
+        Random r = new Random();
+
+        double randomLiczba = Math.round(10 * (r.nextDouble()));
+
+        if (randomLiczba == lizbaUsera) {
+            System.out.println("Hura! Zgadneles!");
+        } else {
+            System.out.println("Niestety nie zgadneles, wylosowana liczba to:" + randomLiczba);
+        }
